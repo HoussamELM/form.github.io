@@ -286,6 +286,7 @@ input{
 .button{
   margin-top: 1px;
   margin-bottom: 1px;
+  scale: 0.6;
 }
 
 .left .logo{
