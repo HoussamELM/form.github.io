@@ -1,0 +1,87 @@
+* {
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0,0.1,0.2,0.3,0.4 0.5,0.6,0.7,0.8,0.9,0, 1);
+  animation-fill-mode: both;
+}
+
+p{
+    animation-delay: 300ms;
+    animation-name: slideDown;
+}
+hr{
+    animation-delay: 300ms;
+    animation-name: fillUp;
+}
+i{
+    animation-delay: 300ms;
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+.footer{
+    animation-delay: 300ms;
+    animation-name: zoomIn;
+}
+.center{
+    animation-delay: 1200ms;
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+.ff{
+    animation-delay: 1250ms;
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+}
+.sub{
+    animation-delay: 2s;
+    animation-name: bounceIn;
+    animation-duration: 2s;
+}
+.h1logo{
+    animation-delay: 1250ms;
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+}
+
+
+
+  @keyframes bounceIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fillUp {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+  
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
