@@ -1,0 +1,300 @@
+@font-face {
+  font-family: "Azonix";
+  src: url("/assets/fonts/AzonixRegular.woff2") format("woff2"),
+    url("/assets/fonts/AzonixRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+#particles-js {
+  background-image: linear-gradient( #2F80ED, #56CCF2);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+nav {
+  border-bottom: 1px solid;
+  position: absolute;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Azonix";
+  font-size: large;
+  color: whitesmoke;
+}
+.container{
+    position: absolute;
+    margin-top: 3vh;
+    width: 100%;
+}
+
+.top{
+height :20vh;
+width: 100%;
+opacity: 90%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+
+}
+.top .text{
+    margin-top: 1rem;
+}
+.top i{
+    font-size: 1.7rem;
+}
+.top p{
+margin-bottom: 0.4rem;
+}
+.top hr{
+    width: 15%;
+    margin: auto;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+
+
+.center{
+height :60vh;
+width: 99.4%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-left: 0.4rem;
+margin-right: 0.4rem;
+border-radius: 20px;
+}
+.center .left{
+    border-right: 3px solid transparent;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lefttop{
+    background-color: #ffffff;
+    height: 40vh;
+    width: 100%;
+    border-radius: 20px 0 0 0;
+}
+
+.left .logo{
+background-color: rgb(0, 0, 0,0.1);
+width: 100%;
+height: 20vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.logo h1{
+color: goldenrod;
+font-family: 'Azonix';
+font-size: x-large;
+
+}
+.leftbottom{
+    background-color: #ffffff;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0 0 0 20px;
+}
+.center .centercenter{
+width:0.2%;
+}
+.center .right{
+    background-color: white;
+    width: 69.8%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0 ;
+}
+
+.ff{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fleft,.fright{
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.fleft{
+  align-items: right;
+  justify-content: right;
+  margin-right: 0.4rem;
+}
+.fright{
+  margin-left: 0.4rem;
+}
+
+.fleft input,.fright input{
+  width: 35rem;
+  height: 2.8rem;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+input{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Azonix';
+  border-radius: 10px 0 10px 0;
+  box-shadow: grey 0px 0px 5px 0.1px;
+  border: none;
+  
+}
+
+.button{
+    margin-top: -8rem;
+  display: flex;
+  justify-content: center;
+}
+button
+{
+
+width: 20vh;
+height: 2.8rem;
+color: goldenrod;
+background-color: rgb(255, 255, 255);
+border: none;
+box-shadow: grey 0px 0px 5px 1px;
+border-radius: 10px;
+border-radius: 10px 0 10px 0;
+}
+
+button:hover{
+  scale: 1.1;
+}
+
+.footer{
+    background-color: transparent;
+height :15vh;
+width: 100%;
+opacity: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.footer h1{
+  color: white;
+  font-family: 'Azonix';
+  font-size: medium;
+}
+.footer a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+
+
+@media screen and (max-width: 799px) {
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  height :60vh;
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 20px;
+  }
+
+  .center .right{
+    overflow: hidden;
+
+    background-color: white;
+    width: 69.8%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0 ;
+
+}
+
+.ff{
+  margin-top: 1rem;
+  margin-bottom: -1.8rem;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fleft,.fright{
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  scale: 0.4;
+}
+
+.button{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.left .logo{
+  background-color: rgb(0, 0, 0,0.3);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+}
