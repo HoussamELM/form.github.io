@@ -227,6 +227,7 @@ align-items: center;
   margin: 0;
   padding: 0;
 }
+
 .center{
   height :60vh;
   width: 97%;
@@ -243,15 +244,18 @@ align-items: center;
     overflow: hidden;
 
     background-color: white;
-    width: 69.8%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 0 20px 20px 0 ;
+    border-radius: 0 20px 0 20px ;
 
+}
+.center .left{
+  display: none;
 }
 
 .ff{
